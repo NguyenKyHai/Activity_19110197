@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:text="CÔNG CỤ TÍNH LÃI TIỀN GỬI"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số tiền gửi *" />
+
+    <EditText
+        android:id="@+id/edtSoTienGui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lãi suất gửi *" />
+
+    <EditText
+        android:id="@+id/edtLaiSuatGui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20dp"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kỳ hạn gửi *" />
+
+    <EditText
+        android:id="@+id/edtKyHanGui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/purple_700"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnXemKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_btn"
+        android:layout_marginHorizontal="50dp"
+        android:text="Xem kết quả" />
+
+</LinearLayout>

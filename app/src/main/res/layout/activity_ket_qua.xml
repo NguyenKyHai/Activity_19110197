@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Số tiền lãi nhận được" />
+
+    <TextView
+        android:id="@+id/txtLaiNhanDuoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:textColor="@color/purple_700"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Tổng số tiền nhận được khi đến hạn" />
+
+    <TextView
+        android:id="@+id/txtTienNhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:inputType="number"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnPicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take a picture" />
+
+</LinearLayout>

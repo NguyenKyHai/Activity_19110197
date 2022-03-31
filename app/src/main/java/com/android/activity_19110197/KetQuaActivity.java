@@ -38,7 +38,7 @@ public class KetQuaActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent1=new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                 startActivityForResult(intent1,REQUEST_CODE_CAMERA);
-
+                finish();
             }
         });
 
